@@ -9,6 +9,8 @@ This project is a **serverless URL Shortener** built using **AWS Lambda**, **Ama
 - Implement error handling for invalid requests
 - Deployed using AWS Serverless Application Model (SAM)
 - Uses **AWS SDK v3** for DynamoDB interactions
+  
+---
 
 ## Tech Stack
 - **AWS Lambda** (Node.js 22.x)
@@ -62,12 +64,7 @@ cd Url-Shortener-AWS
 npm install
 ```
 
-### 3️⃣ Build the Project
-```bash
-npm run build
-```
-
-### 4️⃣ Deploy to AWS using AWS SAM
+### 3️⃣ Deploy to AWS using AWS SAM
 1. **Build the application:**
    ```bash
    sam build
